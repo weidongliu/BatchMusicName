@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E5D15941E7CF93000851FAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5D15931E7CF93000851FAB /* main.m */; };
+		9E5D15971E7CF93000851FAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5D15961E7CF93000851FAB /* AppDelegate.m */; };
+		9E5D159A1E7CF93000851FAB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5D15991E7CF93000851FAB /* ViewController.m */; };
+		9E5D159D1E7CF93000851FAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E5D159B1E7CF93000851FAB /* Main.storyboard */; };
+		9E5D159F1E7CF93000851FAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E5D159E1E7CF93000851FAB /* Assets.xcassets */; };
+		9E5D15A21E7CF93000851FAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E5D15A01E7CF93000851FAB /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9E5D158F1E7CF93000851FAB /* 修改音乐的名称.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "修改音乐的名称.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E5D15931E7CF93000851FAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9E5D15951E7CF93000851FAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9E5D15961E7CF93000851FAB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9E5D15981E7CF93000851FAB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9E5D15991E7CF93000851FAB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9E5D159C1E7CF93000851FAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9E5D159E1E7CF93000851FAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E5D15A11E7CF93000851FAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9E5D15A31E7CF93000851FAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E5D158C1E7CF93000851FAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E5D15861E7CF93000851FAB = {
+			isa = PBXGroup;
+			children = (
+				9E5D15911E7CF93000851FAB /* 修改音乐的名称 */,
+				9E5D15901E7CF93000851FAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E5D15901E7CF93000851FAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E5D158F1E7CF93000851FAB /* 修改音乐的名称.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E5D15911E7CF93000851FAB /* 修改音乐的名称 */ = {
+			isa = PBXGroup;
+			children = (
+				9E5D15951E7CF93000851FAB /* AppDelegate.h */,
+				9E5D15961E7CF93000851FAB /* AppDelegate.m */,
+				9E5D15981E7CF93000851FAB /* ViewController.h */,
+				9E5D15991E7CF93000851FAB /* ViewController.m */,
+				9E5D159B1E7CF93000851FAB /* Main.storyboard */,
+				9E5D159E1E7CF93000851FAB /* Assets.xcassets */,
+				9E5D15A01E7CF93000851FAB /* LaunchScreen.storyboard */,
+				9E5D15A31E7CF93000851FAB /* Info.plist */,
+				9E5D15921E7CF93000851FAB /* Supporting Files */,
+			);
+			path = "修改音乐的名称";
+			sourceTree = "<group>";
+		};
+		9E5D15921E7CF93000851FAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E5D15931E7CF93000851FAB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E5D158E1E7CF93000851FAB /* 修改音乐的名称 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E5D15A61E7CF93000851FAB /* Build configuration list for PBXNativeTarget "修改音乐的名称" */;
+			buildPhases = (
+				9E5D158B1E7CF93000851FAB /* Sources */,
+				9E5D158C1E7CF93000851FAB /* Frameworks */,
+				9E5D158D1E7CF93000851FAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "修改音乐的名称";
+			productName = "修改音乐的名称";
+			productReference = 9E5D158F1E7CF93000851FAB /* 修改音乐的名称.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E5D15871E7CF93000851FAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "weidong liu";
+				TargetAttributes = {
+					9E5D158E1E7CF93000851FAB = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = U99S9SZPC7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9E5D158A1E7CF93000851FAB /* Build configuration list for PBXProject "修改音乐的名称" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E5D15861E7CF93000851FAB;
+			productRefGroup = 9E5D15901E7CF93000851FAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E5D158E1E7CF93000851FAB /* 修改音乐的名称 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E5D158D1E7CF93000851FAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E5D15A21E7CF93000851FAB /* LaunchScreen.storyboard in Resources */,
+				9E5D159F1E7CF93000851FAB /* Assets.xcassets in Resources */,
+				9E5D159D1E7CF93000851FAB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E5D158B1E7CF93000851FAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E5D159A1E7CF93000851FAB /* ViewController.m in Sources */,
+				9E5D15971E7CF93000851FAB /* AppDelegate.m in Sources */,
+				9E5D15941E7CF93000851FAB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9E5D159B1E7CF93000851FAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E5D159C1E7CF93000851FAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9E5D15A01E7CF93000851FAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E5D15A11E7CF93000851FAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E5D15A41E7CF93000851FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E5D15A51E7CF93000851FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E5D15A71E7CF93000851FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U99S9SZPC7;
+				INFOPLIST_FILE = "修改音乐的名称/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "weidong-liu.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9E5D15A81E7CF93000851FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U99S9SZPC7;
+				INFOPLIST_FILE = "修改音乐的名称/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "weidong-liu.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E5D158A1E7CF93000851FAB /* Build configuration list for PBXProject "修改音乐的名称" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E5D15A41E7CF93000851FAB /* Debug */,
+				9E5D15A51E7CF93000851FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E5D15A61E7CF93000851FAB /* Build configuration list for PBXNativeTarget "修改音乐的名称" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E5D15A71E7CF93000851FAB /* Debug */,
+				9E5D15A81E7CF93000851FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E5D15871E7CF93000851FAB /* Project object */;
+}
